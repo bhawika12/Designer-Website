@@ -1,0 +1,46 @@
+ .logo {
+    position: absolute;
+    float:left;
+    height: 80px;
+    width: 10vw;
+  }
+
+.body {
+  padding-right:40px;
+  padding-left:40px;
+}
+
+.info{
+
+  margin-top: 10px;
+}
+
+.link {
+  font-size:20px;
+}
+
+.text {
+  font-size:20px;
+  font-style:"Times New Roman";
+  font-weight:bold;
+}
+
+.cover{
+    margin: auto;
+    width: 100%;
+}
+
+.work {
+  height:20vw;
+  width:25vw;
+}
+
+@media screen and (max-width:800px){
+  .info{
+    color:purple;
+    position:fixed;
+    left:50px;
+    font-size:5px;
+    text-decoration: underline;
+  }
+}
